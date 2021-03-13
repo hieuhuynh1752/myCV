@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Hello! 
+I'm Huynh Thai Hieu, a Front-end Developer who in love with ReactJS.
+This is my CV coded in ReactJS themed up with Material-UI.
+Active link for this repo is in this link: https://huynh-thai-hieu-cv.herokuapp.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Or you can pull it and:
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+### `yarn install`
+Start with `yarn install` to install all dependencies that required for this project!
 
 ### `yarn start`
 
