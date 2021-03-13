@@ -51,13 +51,13 @@ import {
               <Grid item style={{marginRight:'auto'}}>
                 <Box className={props.classes.box}>
                   <LinkedIn className={props.classes.icon} />
-                  <strong>linkedin.com/in/huynhthaihieu1752qn</strong>
+                  <a href="https://www.linkedin.com/in/huynhthaihieu1752qn"><strong>linkedin.com/in/huynhthaihieu1752qn</strong></a>
                 </Box>
               </Grid>
               <Grid item style={{marginRight:'auto'}}>
                 <Box className={props.classes.box}>
                   <GitHub className={props.classes.icon} />
-                  <strong>github.com/hieuhuynh1752</strong>
+                  <a href="https://www.github.com/hieuhuynh1752"><strong>github.com/hieuhuynh1752</strong></a>
                 </Box>
               </Grid>
             </Grid>

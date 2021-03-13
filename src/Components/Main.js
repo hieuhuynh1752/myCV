@@ -5,7 +5,14 @@ import { DateRange } from "@material-ui/icons";
 const Main = (props) => {
   return (
     <Grid mt={5} className={props.classes.card}>
-      <Grid item mt={5} md={7} xs={12} className={props.classes.cardChild}>
+      <Grid
+        item
+        mt={5}
+        md={7}
+        xs={12}
+        className={props.classes.cardChild}
+        style={{ order: 1, [props.theme.breakpoints.up("sm")]: { order: 2 } }}
+      >
         <Grid item xs={11} style={{ margin: "auto" }}>
           <Box mb={-2} color={props.theme.palette.primary.dark}>
             <h2>EDUCATION</h2>
@@ -97,7 +104,13 @@ const Main = (props) => {
                 </li>
                 <li>
                   <strong>Repository URL: </strong>{" "}
-                  https://github.com/hieuhuynh1752/myFamily
+                  <a
+                    href="https://github.com/hieuhuynh1752/myFamily"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    github.com/hieuhuynh1752/myFamily
+                  </a>
                 </li>
                 <li>
                   <strong>Description:</strong>
@@ -134,7 +147,13 @@ const Main = (props) => {
                 </li>
                 <li>
                   <strong>Repository URL: </strong>
-                   https://github.com/SuperMido/megatron
+                  <a
+                    href="https://github.com/SuperMido/megatron"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    github.com/SuperMido/megatron
+                  </a>
                 </li>
                 <li>
                   <strong>Description:</strong>
@@ -175,7 +194,13 @@ const Main = (props) => {
                 </li>
                 <li>
                   <strong>Repository URL: </strong>{" "}
-                  https://github.com/hieuhuynh1752/greechain
+                  <a
+                    href="https://github.com/hieuhuynh1752/greechain"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    github.com/hieuhuynh1752/greechain
+                  </a>
                 </li>
                 <li>
                   <strong>Description:</strong>
@@ -191,7 +216,46 @@ const Main = (props) => {
           </Box>
         </Grid>
       </Grid>
-      <Grid item md={5} xs={12} style={{ marginTop: "-1.25rem" }}>
+      <Grid
+        item
+        md={5}
+        xs={12}
+        style={{
+          marginTop: "-1.25rem",
+          order: 2,
+          [props.theme.breakpoints.up("sm")]: { order: 1 },
+        }}
+      >
+        <Grid
+          item
+          md={11}
+          mt={0}
+          xs={12}
+          className={props.classes.cardChild}
+          style={{}}
+        >
+          <Box
+            mb={-2}
+            color="white"
+            bgcolor={props.theme.palette.primary.main}
+            style={{
+              borderTopLeftRadius: "1rem",
+              borderTopRightRadius: "1rem",
+            }}
+          >
+            <div style={{ margin: "auto", width: "90%" }}>
+              <h2>SUMMARY</h2>
+            </div>
+          </Box>
+          <Grid item style={{ margin: "auto", width: "90%", height: "100%" }}>
+            Experienced Front-End Web Developer with decent ReactJS and React
+            Native experience. <br />
+            Sufficient knowledge in GraphQL technology and familiar with Laravel
+            in building API Services. <br />
+            Able to apply UI/UX concepts to improve satisfaction for clients and
+            end users.
+          </Grid>
+        </Grid>
         <Grid item md={11} mt={0} xs={12} className={props.classes.cardChild}>
           <Box
             mb={-2}
@@ -215,10 +279,10 @@ const Main = (props) => {
               </Box>
               <Box mb={1}>
                 <li>
-                  <strong>Vietnamese</strong>
+                  <strong>English</strong> - Proficient
                 </li>
                 <li>
-                  <strong>English</strong>
+                  <strong>Vietnamese</strong> - Native
                 </li>
               </Box>
               <Box
@@ -269,6 +333,10 @@ const Main = (props) => {
                   <strong>UI Frameworks</strong>: <br />
                   CSS, Material UI, Bootstrap, Reactstrap, React Native Paper,
                   Ant.Design
+                </li>
+                <li>
+                  <strong>State Management</strong>: <br />
+                  React Context, GraphQL Client Cache, Redux
                 </li>
                 <li>
                   <strong>Services</strong>: Server Side Rendering
