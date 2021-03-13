@@ -12,6 +12,7 @@ import {
     LocationOn,
     LinkedIn,
     Facebook,
+    GitHub
   } from "@material-ui/icons";
 
   const Header = (props) =>{
@@ -55,8 +56,8 @@ import {
               </Grid>
               <Grid item style={{marginRight:'auto'}}>
                 <Box className={props.classes.box}>
-                  <Facebook className={props.classes.icon} />
-                  <strong>facebook.com/thaihieu.huynh</strong>
+                  <GitHub className={props.classes.icon} />
+                  <strong>github.com/hieuhuynh1752</strong>
                 </Box>
               </Grid>
             </Grid>

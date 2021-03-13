@@ -41,7 +41,7 @@ const useStyles = makeStyles(({ spacing, palette }) => ({
     background: "#C6E3EE",
   },
   avatar: {
-    width: "80%",
+    width: "50%",
     height: "100%",
     margin: "auto",
     alignSelf: "center",

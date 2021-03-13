@@ -88,7 +88,7 @@ const Main = (props) => {
               </Box>
               <DateRange className={props.classes.icon} color="disabled" />
               01/2021 - 03/2021
-              <Box mt={1} textAlign="justify">
+              <Box mt={1}>
                 <li>
                   <strong>Technologies:</strong> Laravel, React Native, GraphQL
                 </li>
@@ -96,11 +96,54 @@ const Main = (props) => {
                   <strong>Personal project</strong>
                 </li>
                 <li>
+                  <strong>Repository URL: </strong>{" "}
+                  https://github.com/hieuhuynh1752/myFamily
+                </li>
+                <li>
                   <strong>Description:</strong>
                 </li>
                 <li style={{ listStyle: "none", marginLeft: "1.45rem" }}>
                   An Android application for users to share their thoughts,
                   tasks and events within their family.
+                </li>
+              </Box>
+            </Grid>
+          </Box>
+          <Box
+            mt={2}
+            borderTop={3}
+            borderColor={props.theme.palette.primary.light}
+          >
+            <h3>Megatron Project</h3>
+            <Grid item style={{ marginBottom: 25 }}>
+              <Box mt={-1} mb={1} color={props.theme.palette.primary.main}>
+                <strong>Magazine's Articles Management System</strong>
+              </Box>
+              <DateRange className={props.classes.icon} color="disabled" />
+              02/2021 - 03/2021
+              <Box mt={1}>
+                <li>
+                  <strong>Technologies:</strong> .NET Core, HTML, CSS,
+                  JavaScript
+                </li>
+                <li>
+                  <strong>Team members: </strong>7
+                </li>
+                <li>
+                  <strong>Role: </strong> Product Owner
+                </li>
+                <li>
+                  <strong>Repository URL: </strong>
+                   https://github.com/SuperMido/megatron
+                </li>
+                <li>
+                  <strong>Description:</strong>
+                </li>
+                <li style={{ listStyle: "none", marginLeft: "1.45rem" }}>
+                  An Academic-purpose, web application project which is build to
+                  manage Student's article submission in a University. This
+                  project mainly is to learn the Agile and Scrum development
+                  process.
                 </li>
               </Box>
             </Grid>
@@ -119,7 +162,7 @@ const Main = (props) => {
               </Box>
               <DateRange className={props.classes.icon} color="disabled" />
               04/2020 - 06/2020
-              <Box mt={1} textAlign="justify">
+              <Box mt={1}>
                 <li>
                   <strong>Technologies:</strong> PHP, HTML, CSS, JavaScript,
                   Solidity
@@ -129,6 +172,10 @@ const Main = (props) => {
                 </li>
                 <li>
                   <strong>Role: </strong> Front End Developer
+                </li>
+                <li>
+                  <strong>Repository URL: </strong>{" "}
+                  https://github.com/hieuhuynh1752/greechain
                 </li>
                 <li>
                   <strong>Description:</strong>
@@ -159,30 +206,100 @@ const Main = (props) => {
               <h2>SKILLS</h2>
             </div>
           </Box>
-          <Grid item style={{ margin: "auto", width: "90%", height: "18rem" }}>
+          <Grid item style={{ margin: "auto", width: "90%", height: "100%" }}>
             <Grid item>
-              <Box mt={3} mb={-1} color={props.theme.palette.primary.main}>
-                <h3>Programming Skills</h3>
+              <Box mt={3} color={props.theme.palette.primary.main}>
+                <div style={{ marginTop: "-1.25rem", marginBottom: "-1rem" }}>
+                  <h3>Languages</h3>
+                </div>
               </Box>
-              <Box>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>C#</li>
+              <Box mb={1}>
+                <li>
+                  <strong>Vietnamese</strong>
+                </li>
+                <li>
+                  <strong>English</strong>
+                </li>
               </Box>
               <Box
-                mb={1}
-                mt={2}
                 borderTop={3}
                 borderColor={props.theme.palette.primary.light}
                 color={props.theme.palette.primary.main}
               >
-                <h3>Web development technologies</h3>
+                <div style={{ marginTop: "-1rem", marginBottom: "-1rem" }}>
+                  <h3>Programming Skills</h3>
+                </div>
               </Box>
-              <Box mb={3}>
-                <li>ReactJS</li>
-                <li>NextJS</li>
-                <li>Laravel</li>
-                <li>API Services: GraphQL & RESTful</li>
+              <Box mb={1}>
+                <li>
+                  <strong>JavaScript</strong>
+                </li>
+                <li>
+                  <strong>PHP</strong>
+                </li>
+                <li>
+                  <strong>C#</strong>
+                </li>
+              </Box>
+              <Box
+                borderTop={3}
+                borderColor={props.theme.palette.primary.light}
+                color={props.theme.palette.primary.main}
+              >
+                <div style={{ marginTop: "-1rem", marginBottom: "-1rem" }}>
+                  <h3>Web development technologies</h3>
+                </div>
+              </Box>
+              <Box mb={1}>
+                <li>
+                  <strong>ReactJS</strong>
+                </li>
+                <li>
+                  <strong>NextJS</strong>
+                </li>
+                <li>
+                  <strong>Laravel</strong>
+                </li>
+                <li>
+                  {" "}
+                  <strong>API Services</strong>: <br /> GraphQL Server, GraphQL
+                  Client, RESTful with Axios
+                </li>
+                <li>
+                  <strong>UI Frameworks</strong>: <br />
+                  CSS, Material UI, Bootstrap, Reactstrap, React Native Paper,
+                  Ant.Design
+                </li>
+                <li>
+                  <strong>Services</strong>: Server Side Rendering
+                </li>
+              </Box>
+              <Box
+                borderTop={3}
+                borderColor={props.theme.palette.primary.light}
+                color={props.theme.palette.primary.main}
+              >
+                <div style={{ marginTop: "-1rem", marginBottom: "-1rem" }}>
+                  <h3>Development Tools</h3>
+                </div>
+              </Box>
+              <Box mb={1}>
+                <li>
+                  <strong>Resource Control</strong>: Git, Github, Gitlab,
+                  Bitbucket
+                </li>
+                <li>
+                  <strong>Team Workflow Control</strong>: Jira, Trello, Slack
+                </li>
+                <li>
+                  <strong>Environment</strong>: XAMPP, Docker
+                </li>
+                <li>
+                  <strong>Methodologies</strong>: Scrum, Waterfall
+                </li>
+                <li>
+                  <strong>Database Engines</strong>: mySQL, PostgreSQL
+                </li>
               </Box>
             </Grid>
           </Grid>
@@ -201,12 +318,14 @@ const Main = (props) => {
               <h2>ACHIEVEMENTS</h2>
             </div>
           </Box>
-          <Grid item style={{ margin: "auto", width: "90%", height: "27rem" }}>
+          <Grid item style={{ margin: "auto", width: "90%", height: "100%" }}>
             <Grid item>
-              <Box mt={3} mb={-1} color={props.theme.palette.primary.main}>
-                <h3>Personal achievements</h3>
+              <Box mt={1} color={props.theme.palette.primary.main}>
+                <div style={{ marginTop: "-1rem", marginBottom: "-1rem" }}>
+                  <h3>Personal achievements</h3>
+                </div>
               </Box>
-              <Box mb={3}>
+              <Box mb={1}>
                 <li>
                   {" "}
                   <strong>
@@ -224,12 +343,13 @@ const Main = (props) => {
                 </li>
               </Box>
               <Box
-                mb={-1}
                 borderTop={3}
                 borderColor={props.theme.palette.primary.light}
                 color={props.theme.palette.primary.main}
               >
-                <h3>Team achievements</h3>
+                <div style={{ marginTop: "-1rem", marginBottom: "-1rem" }}>
+                  <h3>Team achievements</h3>
+                </div>
               </Box>
               <Box>
                 <li>
@@ -238,6 +358,11 @@ const Main = (props) => {
                     Top 10 Team at Vietnam Online Hackathon 2020
                   </strong>{" "}
                   <br /> Google Developers Group Mien Trung - DNES
+                </li>
+                <li>
+                  {" "}
+                  <strong>Finals at FPT Edu Hackathon 2019</strong> <br /> FPT
+                  Education
                 </li>
               </Box>
             </Grid>
