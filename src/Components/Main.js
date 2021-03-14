@@ -159,7 +159,7 @@ const Main = (props) => {
                   <strong>Description:</strong>
                 </li>
                 <li style={{ listStyle: "none", marginLeft: "1.45rem" }}>
-                  An Academic-purpose, web application project which is build to
+                  An Academic-purpose, web application project which is built to
                   manage Student's article submission in a University. This
                   project mainly is to learn the Agile and Scrum development
                   process.
@@ -248,12 +248,11 @@ const Main = (props) => {
             </div>
           </Box>
           <Grid item style={{ margin: "auto", width: "90%", height: "100%" }}>
-            Experienced Front-End Web Developer with decent ReactJS and React
-            Native experience. <br />
+            Decent ReactJS and React Native experience. <br />
             Sufficient knowledge in GraphQL technology and familiar with Laravel
             in building API Services. <br />
-            Able to apply UI/UX concepts to improve satisfaction for clients and
-            end users.
+            Eager to apply UI/UX concepts to improve satisfaction for clients
+            and end users.
           </Grid>
         </Grid>
         <Grid item md={11} mt={0} xs={12} className={props.classes.cardChild}>
@@ -291,7 +290,7 @@ const Main = (props) => {
                 color={props.theme.palette.primary.main}
               >
                 <div style={{ marginTop: "-1rem", marginBottom: "-1rem" }}>
-                  <h3>Programming Skills</h3>
+                  <h3>Programming Languages</h3>
                 </div>
               </Box>
               <Box mb={1}>
@@ -311,7 +310,7 @@ const Main = (props) => {
                 color={props.theme.palette.primary.main}
               >
                 <div style={{ marginTop: "-1rem", marginBottom: "-1rem" }}>
-                  <h3>Web development technologies</h3>
+                  <h3>Web technologies</h3>
                 </div>
               </Box>
               <Box mb={1}>
@@ -326,20 +325,20 @@ const Main = (props) => {
                 </li>
                 <li>
                   {" "}
-                  <strong>API Services</strong>: <br /> GraphQL Server, GraphQL
+                  <strong>API Service</strong>: <br /> GraphQL Server, GraphQL
                   Client, RESTful with Axios
                 </li>
                 <li>
-                  <strong>UI Frameworks</strong>: <br />
+                  <strong>UI Framework</strong>: <br />
                   CSS, Material UI, Bootstrap, Reactstrap, React Native Paper,
                   Ant.Design
                 </li>
                 <li>
-                  <strong>State Management</strong>: <br />
+                  <strong>State Management Framework</strong>: <br />
                   React Context, GraphQL Client Cache, Redux
                 </li>
                 <li>
-                  <strong>Services</strong>: Server Side Rendering
+                  <strong>Service</strong>: Server Side Rendering
                 </li>
               </Box>
               <Box
@@ -348,26 +347,50 @@ const Main = (props) => {
                 color={props.theme.palette.primary.main}
               >
                 <div style={{ marginTop: "-1rem", marginBottom: "-1rem" }}>
-                  <h3>Development Tools</h3>
+                  <h3>Tools</h3>
                 </div>
               </Box>
               <Box mb={1}>
                 <li>
-                  <strong>Resource Control</strong>: Git, Github, Gitlab,
+                  <strong>Resource Management</strong>: Git, Github, Gitlab,
                   Bitbucket
                 </li>
                 <li>
-                  <strong>Team Workflow Control</strong>: Jira, Trello, Slack
+                  <strong>Workflow Management</strong>: Jira, Trello, Slack
                 </li>
                 <li>
                   <strong>Environment</strong>: XAMPP, Docker
                 </li>
                 <li>
-                  <strong>Methodologies</strong>: Scrum, Waterfall
+                  <strong>Database</strong>: mySQL, PostgreSQL
                 </li>
-                <li>
-                  <strong>Database Engines</strong>: mySQL, PostgreSQL
-                </li>
+              </Box>
+              <Box
+                borderTop={3}
+                borderColor={props.theme.palette.primary.light}
+                color={props.theme.palette.primary.main}
+              >
+                <div style={{ marginTop: "-1rem", marginBottom: "-1rem" }}>
+                  <h3>Development Process</h3>
+                </div>
+              </Box>
+              <Box mb={1} mt={-3}>
+                <Grid className={props.classes.container}>
+                  <Grid item style={{ marginRight: "auto" }}>
+                    <Box className={props.classes.box}>
+                      <li>
+                        <strong>Scrum</strong>
+                      </li>
+                    </Box>
+                  </Grid>
+                  <Grid item style={{ marginRight: "auto" }}>
+                    <Box className={props.classes.box}>
+                      <li>
+                        <strong>Waterfall</strong>
+                      </li>
+                    </Box>
+                  </Grid>
+                </Grid>
               </Box>
             </Grid>
           </Grid>

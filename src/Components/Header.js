@@ -11,7 +11,6 @@ import {
     Call,
     LocationOn,
     LinkedIn,
-    Facebook,
     GitHub
   } from "@material-ui/icons";
 
